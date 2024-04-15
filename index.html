@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>webPpt - Piedra, Papel o Tijeras</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<div class="container">
+  <h1>¡Juguemos a Piedra, Papel o Tijeras!</h1>
+  
+  <section class="opciones">
+    <h2>Escoge tu opción:</h2>
+    <button onclick="eligeOpcion('piedra')">Piedra</button>
+    <button onclick="eligeOpcion('papel')">Papel</button>
+    <button onclick="eligeOpcion('tijeras')">Tijeras</button>
+  </section>
+
+  <section class="resultado" id="resultado">
+    <h2>Resultado:</h2>
+    <p id="mensaje"></p>
+  </section>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
